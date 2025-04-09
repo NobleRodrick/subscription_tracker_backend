@@ -4,7 +4,7 @@ import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken"
 import { JWT_EXPIRES_IN, JWT_SECRET } from "../config/env.js";
 
-//what is a req body?  It is an object containing data fro the client(POST req)
+//what is a req body?  It is an object containing data from the client(POST req)
 
 
 export const signUp = async ( req, res, next ) => {
